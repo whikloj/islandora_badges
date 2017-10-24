@@ -32,6 +32,7 @@ env:
 branches:
   only:
     - /^7.x/
+    - /^fix-travis/
 before_install:
   - cd $HOME
   - git clone -b 7.x git://github.com/Islandora/islandora.git
